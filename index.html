@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/estilos.css">
+    <title>Encriptador</title>
+</head>
+<body>
+<header>
+    <img class="logo" src="/imagenes/Logo.png" alt="logo Alura" >
+    </header>
+<main>
+    <section class="seccion-1">
+        <textarea class="input-area" placeholder="Ingrese el texto aqui"></textarea>
+        <div class="aviso">
+            <img src="/imagenes/alerta.svg" alt="imagen de aviso" class="img-aviso">
+            <p class="texto-aviso">Solo letras minusculas y sin acentos</p>
+        </div>
+        <div class="botones">
+            <button class="btn-encoder">Encriptar</button>
+            <button class="btn-decoder">Desencriptar</button>
+        </div>
+    </section>
+    <section class="seccion-2">
+        <div class="output-area-elements">
+            <img class="img-muneco" src="/imagenes/muneco.svg" alt="Muneco con lupa">
+            <p class="texto-1">Ningún mensaje fue encontrado</p>
+            <p class="texto-2">Ingresa el texto que desees encriptar o desencriptar.</p>
+            
+        </div>
+        <textarea class="output-area" readonly></textarea>
+        <button class="btn-copy">Copiar</button>
+    </section>
+</main>
+<footer>
+    <p class="copyright">&copy; copyright 2024 - Encriptador de Texto. Developed by Alberto Carbajal</p>
+    <div class="vinculos">
+        <a class="vinculo-1" href="https://www.linkedin.com/in/alberto-carbajal-45690064">
+            <img src="/imagenes/linkedin.svg" alt="logo linkedin" class="linkedin">
+        </a>
+        <a class="vinculo-2" href="https://github.com/vetto905">
+            <img src="/imagenes/githubblack5.jpg" alt="logo github" class="github">
+        </a>
+    </div>
+</footer>
+
+<script src="./encriptador.js"></script>
+</body>
+</html>
